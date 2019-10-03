@@ -1,5 +1,6 @@
 module.exports = {
   components: "src/components/ComponentA.js",
+  //components: "src/components/ComponentA_ideal.js",
   webpackConfig: {
     module: {
       rules: [
