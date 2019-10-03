@@ -11,7 +11,7 @@ var ComponentA = {
             console.log("This is method1");
         }
     },
-    template: `<div :style="{color: color}">This is componentA<div>`
+    template: `<div :style="{color: color}">This is componentA</div>`
 }
 
 module.exports = ComponentA;
