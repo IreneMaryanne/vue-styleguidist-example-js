@@ -9,8 +9,8 @@ This repo shows how to use [vue-styleguidist](https://github.com/vue-styleguidis
 Clone and install deps:
 
 ```bash
-git clone https://github.com/alexjoverm/vue-styleguidist-example
-cd vue-styleguidist-example
+git clone https://github.com/IreneMaryanne/vue-styleguidist-example-js.git
+cd vue-styleguidist-example-js
 npm install
 ```
 
