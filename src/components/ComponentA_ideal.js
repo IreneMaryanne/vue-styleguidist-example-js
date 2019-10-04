@@ -14,7 +14,8 @@ var ComponentA = {
     template: `<div :style="{color: color}">This is componentA</div>`
 }
 
-if (typeof module !== 'undefined' && module.exports) module.exports = ComponentA;
-else{
-  Vue.component('ComponentA', ComponentA);
+if (typeof module == 'undefined') { //browser mode 
+    Vue.component('ComponentA', ComponentA);
+    module = {}
 }
+module.exports = ComponentA; 
